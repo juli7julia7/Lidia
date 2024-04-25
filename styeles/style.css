@@ -291,6 +291,11 @@ body {
     display: inline-block;
     border-radius: 10px;
     max-width: 100%;
+    transition: transform 0.3s ease 0s;
+}
+
+.images-hero__link img:hover{
+    transform: translateY(-20px);
 }
 
 .images-hero__icon--1 {
@@ -381,6 +386,7 @@ body {
     justify-items: center;
 }
 
+
 .item-features {}
 
 .item-features__icon {
@@ -450,6 +456,108 @@ body {
 
 @media(max-width:767.98px) {
     .features {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+/* ===================== SERVICES ==================== */
+.services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services__article {
+    /* column-gap: 10px; */
+    row-gap: 30px;
+    display: flex;
+}
+
+
+.article-services:not(:last-child) {
+    margin-bottom: 140px;
+}
+
+.article-services__content {
+    flex: 0 1 50%;
+}
+
+
+@media(min-width:991.98px){
+    .article-services__body {
+        max-width: 411px;
+    }
+    .article-services:nth-child(odd) .article-services__content{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .article-services:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    
+}
+
+.article-services__title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.article-services__title span {
+    color: #4475F2;
+}
+
+.article-services__text p {
+    font-weight: 500;
+    line-height: 1.87;
+    letter-spacing: 0.32px;
+}
+.article-services__text p:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.article-services__image {
+    flex: 0 1 50%;
+    border-radius: 10px;
+}
+
+.article-services__image img{
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 30px 60px 0px rgba(71, 74, 87, 0.25);
+}
+
+@media(max-width:1198.98px){
+    .article-services:not(:last-child) {
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width:991.98px){
+    .services {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .article-services:not(:last-child) {
+        margin-bottom: 70px;
+    }
+    .services__article{
+        flex-direction: column;
+    }
+    .article-services__image{
+        margin: 0 auto;
+    }
+    .article-services__title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767.98px){
+    .services {
         padding-top: 30px;
         padding-bottom: 30px;
     }

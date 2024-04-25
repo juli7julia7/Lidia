@@ -26,14 +26,15 @@
     .block-title {
         margin-bottom: 70px;
     }
+    .block-title__subtitle{
+        font-size: 16px;
+    }
 }
 @media(max-width:767.98px){
     .block-title__title{
         font-size: 38px;
     }
-    .block-title__subtitle{
-        font-size: 16px;
-    }
+   
     .block-title {
         margin-bottom: 40px;
     }
