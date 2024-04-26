@@ -343,6 +343,10 @@ body {
     .content-hero__button {
         width: 100%;
     }
+    .content-hero__title--link {
+        text-decoration-thickness: 3px;
+        text-underline-offset: 8px;
+    }
 }
 
 @media(max-width:598.98px) {
