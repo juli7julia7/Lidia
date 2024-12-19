@@ -151,6 +151,9 @@ body {
     left: 0;
 }
 
+.scroll-off{
+    overflow: hidden;
+}
 /* ======================= HERO ====================== */
 
 .hero__container {
