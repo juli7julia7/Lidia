@@ -6,6 +6,10 @@
 	border: none;
 	box-sizing: border-box;
 }
+*{
+	-webkit-tap-highlight-color: transparent;
+  }
+  
 li {
 	list-style: none;
 }

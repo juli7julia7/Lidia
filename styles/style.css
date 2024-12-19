@@ -123,6 +123,7 @@ body {
 
     .menu-open .icon-menu span {
         width: 0;
+        transition: width 0.0001s;
     }
 
     .menu-open .icon-menu::before {
