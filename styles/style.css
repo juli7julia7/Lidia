@@ -164,30 +164,6 @@ body {
     row-gap: 40px;
 }
 
-/* .hero__container::before{
-    content: '';
-    background-color: #4475F2;
-    position: absolute;
-    height: 100%;
-    width: 200vw;
-    top: 0;
-    left: calc(60% + 30px);
-    transform: skew(-29deg);
-    border-radius: 50px;
-}
-
-.hero__container::after{
-    content: '';
-    background-color: #4475F2;
-    position: absolute;
-    height: 100%;
-    width: 200vw;
-    bottom: 0;
-    left: 67%;
-    transform: skew(35deg);
-} */
-
-
 .hero {
     padding-bottom: 40px;
     position: relative;
